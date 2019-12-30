@@ -3,7 +3,7 @@ const STORE = {
       {
         id: '1',
         header: 'First list',
-        cardIds: [ 'a', 'b', 'e', 'f', 'g', 'j', 'l', 'm' ],
+        cardIds: [ 'a' ],
       },
       {
         id: '2',

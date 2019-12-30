@@ -1,9 +1,11 @@
+import React from 'react';
 
-function Card(title,content) {
+
+function Card (props) {
   return (
-    <div class='Card'>
-        <h3>{allCards.title}</h3>
-        <p>{allCards.content}</p>
+    <div className='Card'>
+        <h3>{props.title}</h3>
+        <p>{props.content}</p>
     </div>
 );
 }
